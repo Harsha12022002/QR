@@ -18,10 +18,11 @@ const QRCodeGenerator = () => {
         <QRCodeCanvas
           value={text}
           size={256}
-          bgColor="#FFFFFF"
+          bgColor="grey"
           fgColor="#000000"
           level="H"/>
       )}
+      
     </div>
   );
 };
